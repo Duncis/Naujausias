@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowsFormsApp1", "WindowsFormsApp1.csproj", "{5261137E-45A6-4AAD-AB2A-2D5FB0E12727}"
+	ProjectSection(ProjectDependencies) = postProject
+		{01178244-8229-4A13-9C44-BED6A1EDCADE} = {01178244-8229-4A13-9C44-BED6A1EDCADE}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestAPI", "..\RestAPI\RestAPI.csproj", "{01178244-8229-4A13-9C44-BED6A1EDCADE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5261137E-45A6-4AAD-AB2A-2D5FB0E12727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5261137E-45A6-4AAD-AB2A-2D5FB0E12727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5261137E-45A6-4AAD-AB2A-2D5FB0E12727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5261137E-45A6-4AAD-AB2A-2D5FB0E12727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01178244-8229-4A13-9C44-BED6A1EDCADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01178244-8229-4A13-9C44-BED6A1EDCADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01178244-8229-4A13-9C44-BED6A1EDCADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01178244-8229-4A13-9C44-BED6A1EDCADE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51658385-2C3A-4C68-AFC3-F59B168FECA8}
+	EndGlobalSection
+EndGlobal
